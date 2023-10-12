@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(241, 190, 50);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.underline1{
+    text-decoration: none;
+}
+.underline1:hover{
+    text-decoration: underline 1px solid rgb(241, 190, 50);
+}
+.underline2{
+    border: none;
+}
+.underline2:hover{
+    text-decoration: underline 2px solid black;
+}
+.underline3{
+    border: none;
+}
+.underline3:hover{
+    text-decoration: underline 3px solid rgb(241, 190, 50);
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.nav_left{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+.nav_left span{
+    margin: 10px;
+    /* color: rgb(241, 190, 50); */
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav_centre{
+    width: 65%;
+    margin-right: 4rem;
+}
+.nav_centre_ul{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_centre_ul li{
+   list-style-type:none;
+}
+.nav_centre_ul a{
+    /* color:rgb(241, 190, 50); */
+    text-decoration: none;  
+    text-transform: uppercase; 
+    font-size: 1rem;
+    font-weight: 700; 
+}
+.nav_centre_ul button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+    background-color:orange;
+    text-transform: uppercase;
+}
+
+/* middle_container */
+.middle_container{
+    width: 100%;      
+}
+.mid_con1{
+    width: 100%;
+}
+.mid_con2{
+    width: 100%;
+    background-color: black;
+    /* color: rgb(241, 190, 50); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid white;
+}
+.mid_con2 span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 2rem 0rem;
+    /* text-decoration: underline; */
+}
+.mid_con2_img{
+    width: 13rem;  
+    margin-bottom: 1rem;
+}
+.mid_con2 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.mid_con2 button{
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+    background-color:orange;
+    text-transform: uppercase;
+    margin: 3rem;  
+}
+/* our services */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: black;
+}
+.services span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* text-decoration: underline; */
+}
+.mid_con3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+    background-color: black;
+    padding-bottom: 3rem;
+}
+.mc3-1{
+    height: 20rem;
+    width: 44%;
+    background-color: rebeccapurple;
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+    position: relative;    
+}
+.mc3-1 img{      
+    width: 100%;
+    height: 20rem;
+    /* padding: 0.5rem; */
+    position: relative;      
+  }
+.mc3-1 h3{
+    color: white;  
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+/* Why Choose Us */
+.choose-us{
+    margin: 5px 0px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+.choose span{
+    height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+    /* text-decoration: underline; */
+    
+}
+.choose-1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25rem;
+    background-color: black;
+}
+.choose-1-logo{
+    width: 23%;
+    height: 18rem;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.choose-1-logo span{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/* Our-Customers */
+.customer{
+    height:30rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.customer span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* text-decoration: underline; */
+    padding: 3rem;  
+}
+.customer img{
+    margin-bottom: 1.5rem;
+}
+.customer p{
+    font-size: 1rem;
+}
+/* footer */
+.footer{
+    height: 40rem;
+    background-color: black;
+}
+.foot-1 span{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* text-decoration: underline; */
+    padding: 2rem 0rem;
+}
+.foot-2{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    height: 45px;
+    width: 70%;
+    /* padding: 1rem; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.foot-2-input{
+    height: 40px;
+    width: 83%;
+    border: none;
+    padding: 1rem;
+}
+.foot-2 button{
+    width: 15%;
+    height: 40px;
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Contact-Us */
+.Contact-Us{
+    display: flex;
+    justify-content:space-evenly;
+}
+.location{
+    height: 20rem;
+    position: relative;
+    margin-top: 3rem;
+}
+.location img{
+    width: 100%;
+    height: 130%;
+    padding-bottom: 1rem;
+}
+.location span{
+    position: absolute;
+    bottom: -4.5rem;
+    left: 1.5rem;
+    color: rgba(0, 0, 0, 0.781);
+    font-size: 1.2rem;
+}
+.CU-box{
+    width: 30%;
+    height: 25rem;
+    margin-top: 3rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}       
+.cu-span1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.CU-box-content{
+    margin-top: 1.2rem;
+}
+.CU-box-content i{
+    font-size: 1.5rem;
+}
+
+.cu-span2{
+    margin-left: 1rem;  
+    font-size: 1.2rem;  
+}
+
+.Last-button{
+    margin-top: 5rem;
+}
+.Lbutton{
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:black;
+    background-color:orange;
+    text-transform: uppercase;   
+}
+
